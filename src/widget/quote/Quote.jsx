@@ -58,7 +58,7 @@ const Quote = () => {
         <div className="wrapper px-8 ">
           <ul className="flex items-center flex-wrap gap-1 text-sm font-medium font-roboto">
             {quoteList.map((list, idx) => (
-              <list
+              <li
                 key={idx}
                 onClick={() => setCond(idx)}
                 className={`${
@@ -66,7 +66,7 @@ const Quote = () => {
                 } cursor-pointer p-2 hover:border-b-[3px] hover:border-solid hover:border-[#39364f] `}
               >
                 {list.txt}
-              </list>
+              </li>
             ))}
           </ul>
         </div>

@@ -34,9 +34,9 @@ const Header = () => {
               <svg
                 className="w-5 text-gray-600 h-5 "
                 fill="none"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
                 stroke="currentColor"
                 viewBox="0 0 24 24"
               >
